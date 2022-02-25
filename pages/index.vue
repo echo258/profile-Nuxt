@@ -12,7 +12,7 @@
       <span>
         Hi, my name is Jason Guthrie. I have an Associate in Applied Science
         Degree: Computer Information Systems from Mid Michigan College.
-        <span v-html="rawpo9v"></span>
+        <span v-html="rawi7ry"></span>
       </span>
       <span></span>
       <span>
@@ -56,7 +56,7 @@
           <span class="index-text11">
             <span>
               I have taken two class in cyber security. Learned about
-              <span v-html="raw99xj"></span>
+              <span v-html="rawruex"></span>
             </span>
             <br />
             <span>
@@ -92,13 +92,13 @@ export default {
 
   data() {
     return {
-      rawpo9v: ' ',
-      raw99xj: ' ',
+      rawi7ry: ' ',
+      rawruex: ' ',
     }
   },
 
   head: {
-    title: 'Jason Guthrie | Home',
+    title: 'Jason Guthrie',
     meta: [
       {
         name: 'description',
@@ -107,7 +107,7 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'Jason Guthrie | Home',
+        content: 'Jason Guthrie',
       },
       {
         property: 'og:description',

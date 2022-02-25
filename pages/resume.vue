@@ -9,7 +9,7 @@
           computer. that includes inspecting websites, networks, and security
           threats. including learning about privacy on and offline and the best
           practices to follow.
-          <span v-html="raw0pzx"></span>
+          <span v-html="rawlnzo"></span>
         </span>
       </div>
       <img
@@ -53,7 +53,7 @@
         <div class="resume-cyber">
           <span class="resume-text08 sub-Heading">
             Cybersecurity Operations
-            <span v-html="rawpqhg"></span>
+            <span v-html="rawy1mq"></span>
           </span>
           <span class="resume-text09 date">September 2018 to May 2019</span>
         </div>
@@ -101,7 +101,7 @@
         <div class="resume-web-design">
           <span class="resume-text17 sub-Heading">
             Web Design
-            <span v-html="rawzlbr"></span>
+            <span v-html="rawoot3"></span>
           </span>
           <span class="resume-text18 date">September 2018 to December 2018</span>
         </div>
@@ -109,7 +109,7 @@
           <li class="resume-li09 list-item">
             <span>
               Learned in-depth functions
-              <span v-html="rawj948"></span>
+              <span v-html="rawdsm6"></span>
             </span>
           </li>
           <li class="resume-li10 list-item">
@@ -131,7 +131,7 @@
           <span>&amp;#8203;</span>
           <span>
             Associates in Applied Science: Computer Information Systems
-            <span v-html="rawixln"></span>
+            <span v-html="raw63cw"></span>
           </span>
         </span>
         <span class="resume-text26"><span>GPA: 3.3</span></span>
@@ -152,7 +152,7 @@
         <span class="resume-text33">
           <span>
             High School Diploma
-            <span v-html="raw1mpn"></span>
+            <span v-html="raw2ity"></span>
           </span>
         </span>
         <span class="resume-text35"><span>GPA: 3.3</span></span>
@@ -172,17 +172,17 @@ export default {
 
   data() {
     return {
-      raw0pzx: ' ',
-      rawpqhg: ' ',
-      rawzlbr: ' ',
-      rawj948: ' ',
-      rawixln: ' ',
-      raw1mpn: ' ',
+      rawlnzo: ' ',
+      rawy1mq: ' ',
+      rawoot3: ' ',
+      rawdsm6: ' ',
+      raw63cw: ' ',
+      raw2ity: ' ',
     }
   },
 
   head: {
-    title: 'Resume - Jason Guthrie | Home',
+    title: 'Resume - Jason Guthrie',
     meta: [
       {
         name: 'description',
@@ -191,7 +191,7 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'Resume - Jason Guthrie | Home',
+        content: 'Resume - Jason Guthrie',
       },
       {
         property: 'og:description',

@@ -20,25 +20,6 @@
         </span>
       </div>
     </div>
-    <div class="projects-linux">
-      <img
-        alt="image"
-        src="https://images.unsplash.com/photo-1629654297299-c8506221ca97?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fGxpbnV4fGVufDB8fHx8MTY0NTc1MzIzMw&amp;ixlib=rb-1.2.1&amp;w=1400"
-        image_src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&amp;ixlib=rb-1.2.1&amp;h=1000"
-        class="projects-image1"
-      />
-      <div class="projects-container2">
-        <h1 class="projects-text2">Linux</h1>
-        <span class="projects-text3">
-          For over a year now I have ran TrueNas (formally FreeNAS) for PC backups
-          and media streaming sever thought Plex. I have recently added more
-          functionality to my sever utilizing its virtual machining capabilities
-          to add ubuntu sever with docker. with in docker I have portainer and a
-          server dashboard in another ubuntu sever I have pi hole running with
-          unbond. I use my server to store my security camera footage using NFS.
-        </span>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -51,7 +32,7 @@ export default {
     AppMenu,
   },
   head: {
-    title: 'Projects - Jason Guthrie | Home',
+    title: 'Projects - Jason Guthrie',
     meta: [
       {
         name: 'description',
@@ -60,7 +41,7 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'Projects - Jason Guthrie | Home',
+        content: 'Projects - Jason Guthrie',
       },
       {
         property: 'og:description',
@@ -115,46 +96,8 @@ export default {
   font-size: 1.25rem;
   margin-bottom: var(--dl-space-space-twounits);
 }
-.projects-linux {
-  width: 100%;
-  display: flex;
-  max-width: var(--dl-size-size-maxwidth);
-  box-shadow: 4px 4px 10px 0px rgba(18, 18, 18, 0.1);
-  align-items: stretch;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.projects-image1 {
-  width: 350px;
-  height: 350px;
-  object-fit: cover;
-  flex-shrink: 0;
-  border-radius: 0px;
-}
-.projects-container2 {
-  display: flex;
-  align-items: flex-start;
-  padding-top: var(--dl-space-space-twounits);
-  padding-left: var(--dl-space-space-twounits);
-  padding-right: var(--dl-space-space-twounits);
-  flex-direction: column;
-  padding-bottom: var(--dl-space-space-twounits);
-  justify-content: space-between;
-}
-.projects-text2 {
-  margin-bottom: 0px;
-}
-.projects-text3 {
-  color: var(--dl-color-gray-500);
-  font-size: 1.25rem;
-  margin-bottom: var(--dl-space-space-twounits);
-}
 @media(max-width: 991px) {
   .projects-truenas {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  .projects-linux {
     flex-direction: row;
     justify-content: space-between;
   }
@@ -164,12 +107,6 @@ export default {
     flex-direction: column;
   }
   .projects-image {
-    width: 100%;
-  }
-  .projects-linux {
-    flex-direction: column;
-  }
-  .projects-image1 {
     width: 100%;
   }
 }

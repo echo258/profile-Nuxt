@@ -21,7 +21,7 @@ export default {
     AppMenu,
   },
   head: {
-    title: 'truenas - Jason Guthrie | Home',
+    title: 'truenas - Jason Guthrie',
     meta: [
       {
         name: 'description',
@@ -30,7 +30,7 @@ export default {
       },
       {
         property: 'og:title',
-        content: 'truenas - Jason Guthrie | Home',
+        content: 'truenas - Jason Guthrie',
       },
       {
         property: 'og:description',
